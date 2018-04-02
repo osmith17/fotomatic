@@ -1,4 +1,8 @@
 /* Universal Styles */
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+}
 
 html {
   font-family: "Roboto", sans-serif;
@@ -127,9 +131,9 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
-  margin-left: 100px;
-  margin-top: 170px;
-  margin-bottom: 170px;
+  position: relative;
+  top: 170px;
+  left: 10%;
 }
 
 #sign-up-cta .content {
