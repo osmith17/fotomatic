@@ -4,8 +4,6 @@ html, body {
    overflow-x: hidden;
    overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
-   height:auto!important;
-
 }
 
 html {
